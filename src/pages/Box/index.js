@@ -30,7 +30,7 @@ export default class Box extends Component {
     };
 
     subscribeToNewFiles = box => {
-        const io = socket('https://omnistack-backend.herokuapp.com');//Mudar para o meu bd
+        const io = socket('https://github.com/Guirds/frontend.git');//Mudar para o meu bd
 
         io.emit('connectRoom', box);
 
